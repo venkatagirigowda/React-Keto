@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #fee715ff;
+  font-family: Montserrat ,sans-serif;
+}
+/* Search.js css */
+.searchmain {
+  display: flex;
+  color: aliceblue;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #101820ff;
+}
+input {
+  width: 70%;
+  background-color: #101820ff;
+  color: white;
+  padding: 2%;
+  margin-top: 2%;
+  border: none;
+  border-bottom: 2px solid white;
+}
+.searchbtn {
+  margin-top: 3%;
+  padding: 2%;
+  background-color: #fee715ff;
+  border-radius: 10%;
+  width: 40%;
+}
+button:hover {
+  background-color: #101820ff;
+  color: aliceblue;
+}
+/* Recipe.js css */
+.main {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+.element {
+  background: rgb(20, 27, 32);
+  color: whitesmoke;
+  margin: 1%;
+  box-shadow: 4.3px 8.6px 8.6px #101820ff;
+  max-width: 300px;
+}
+img {
+  width: 90%;
+  height: 60%;
+}
+button {
+  background-color: #fee715ff;
+  padding: 2%;
+  margin: 2%;
+}
+p {
+  font-weight: bolder;
+}
+.ingredient{
+  color:whitesmoke;
+  text-align:left
+}
+h3{
+  margin-top: 2%;
+  padding:1%;
+}
+/* Footer css */
+.footer{
+  display: flex;
+  width:100%;
+  height:70px;
+  background-color: #101820ff;
+  color:whitesmoke;
+  justify-content: center;
+  align-items: center;
+
+}
+@media only screen and (max-width:600px) {
+  .main {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .element {
+    background: rgb(20, 27, 32);
+    color: whitesmoke;
+    margin: 1%;
+    box-shadow: 4.3px 8.6px 8.6px #101820ff;
+    max-width: 300px;
+  
+}}
