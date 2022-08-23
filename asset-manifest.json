@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-keto/static/css/main.bafffe60.css",
+    "main.js": "/react-keto/static/js/main.37cb7ee5.js",
+    "index.html": "/react-keto/index.html",
+    "main.bafffe60.css.map": "/react-keto/static/css/main.bafffe60.css.map",
+    "main.37cb7ee5.js.map": "/react-keto/static/js/main.37cb7ee5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bafffe60.css",
+    "static/js/main.37cb7ee5.js"
+  ]
+}
